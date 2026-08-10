@@ -9,6 +9,15 @@
 
 <br/>
 
+<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://github.com/umutseve4">
+  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub" />
+</a>
+
+<br/><br/>
+
 <img src="https://komarev.com/ghpvc/?username=umutseve4&label=PROFILE%20VIEWS&color=00e5ff&style=for-the-badge" alt="views" />
 <img src="https://img.shields.io/github/followers/umutseve4?label=FOLLOWERS&style=for-the-badge&color=00e5ff&labelColor=0d1117" alt="followers" />
 <img src="https://img.shields.io/badge/FOCUS-Real--Time%20Graphics-00e5ff?style=for-the-badge&labelColor=0d1117" alt="focus" />
@@ -16,6 +25,26 @@
 </div>
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/rainbow-superthin.webp" width="100%" />
+
+<!-- ═══════════════════════════ BIO ═══════════════════════════ -->
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;About Me
+
+<img align="right" width="330" src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Developer.gif" />
+
+I'm an **Economics Engineering** student at **Uludağ University**, and a graduate of **Tofaş Science High School**. My degree lives at the intersection of engineering rigour and economic modelling — but my obsession sits one layer deeper: **making machines draw things in real time.**
+
+I build renderers and games the hard way, on purpose. When I wanted a universe-scale space RTS, I didn't reach for a framework — I wrote raw **WebGL2** with hand-authored **GLSL**, generated ship meshes procedurally, synthesised textures at runtime, and pushed entire fleets through **GPU instancing**. Zero dependencies, top to bottom.
+
+The same instinct drives **ApexFormula**, my original 3D formula racing game in **Unreal Engine 5.8** with assets modelled in **Blender 5.2 LTS** — chasing the feeling of a car that's genuinely alive under your hands.
+
+What analytical training and graphics programming share is this: **both reward you for refusing to treat the system as a black box.** Whether it's a market model or a fragment shader, I want to know exactly why the number came out that way.
+
+🔭 &nbsp;Currently building universe-scale simulations and racing physics
+🌱 &nbsp;Currently learning GPU-driven rendering, procedural generation & quantitative modelling
+💬 &nbsp;Ask me about shaders, procedural generation, or game architecture
+⚡ &nbsp;Fun fact: I'd rather write 400 lines of GLSL than install one package
+
+<br clear="right"/>
 
 <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> &nbsp;`whoami`
@@ -28,6 +57,7 @@ const umut = {
   alumni:    "Tofaş Science High School",
   born:      "2005-06-27",
   location:  "Bursa, Türkiye 🇹🇷",
+  linkedin:  "in/umut-sever-7851b73a6",
 
   currently: ["Universe-scale space RTS in raw WebGL2", "3D F1 racing sim in Unreal Engine 5"],
   learning:  ["GPU-driven rendering", "Procedural generation", "Quantitative modelling"],
@@ -164,6 +194,9 @@ const umut = {
 
 <div align="center">
 
+<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 <a href="https://github.com/umutseve4">
   <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF" />
 </a>
