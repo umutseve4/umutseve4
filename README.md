@@ -171,6 +171,36 @@ class UmutSever:
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⛏️ StructureCraft
+**Fabric 1.20.1 Minecraft mod**
+
+- 🏰 Blueprint items that generate full structures in-world — cottage, fortress, 129x129 mega city
+- 🛹 Rideable skateboard + flyable airplane entities
+- ✅ CI builds the jar **and** boots a real dedicated server as a smoke test on every push
+
+`Java` `Fabric` `Gradle` `GitHub Actions`
+
+<a href="https://github.com/umutseve4/structurecraft">→ Repo</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧾 LedgerPilot
+**Freemium invoicing SaaS — zero dependencies**
+
+- 💼 Invoices, clients, expenses, profit & tax reports — all in `localStorage`
+- 💳 Quota paywall + simulated Stripe-style checkout (Luhn validation)
+- ✅ 14 headless smoke tests, CI on every push
+
+`JavaScript` `Vanilla JS` `Zero-dependency` `GitHub Actions`
+
+<a href="https://github.com/umutseve4/ledgerpilot">→ Repo</a>
+
+</td>
+</tr>
 </table>
 
 <br/>
