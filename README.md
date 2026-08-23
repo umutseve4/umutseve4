@@ -201,6 +201,60 @@ class UmutSever:
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### econ-lakehouse
+Medallion lakehouse for Turkish macro data. Python ingest to Parquet bronze,
+dbt + DuckDB for silver/gold, data-quality gates, scheduled via Actions.
+
+**Live:** https://econ-lakehouse-umut.streamlit.app
+`Python` `dbt` `DuckDB` `Parquet`
+
+</td>
+<td width="50%" valign="top">
+
+### RevisionLedger
+Bitemporal ledger answering a question most dashboards quietly get wrong:
+*what was known at the time the decision was made?* Built on ALFRED GDPC1.
+
+`Python` `bitemporal` `evidence-first`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### data-reliability-lab
+Failure-simulation lab for data contracts, idempotency, quarantine/replay,
+lineage and reliability SLOs. Breaking pipelines on purpose to learn how.
+
+`Python` `data quality` `SLO`
+
+</td>
+<td width="50%" valign="top">
+
+### tcmb-policy-rag-pipeline
+Incremental, versioned ingestion of TCMB PPK decisions with citation-backed
+retrieval. Every answer carries the document it came from.
+
+`Python` `RAG` `versioned ingest`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### btk-sql-lab
+Codespaces-based SQL Server 2022 lab, built so the coursework runs from a
+browser on a machine that cannot host it locally.
+
+`SQL Server` `Codespaces` `Shell`
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 <br/>
