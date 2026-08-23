@@ -1,0 +1,60 @@
+name: Patch Featured Builds
+
+# One-shot. Deleted in the same PR that carries its output.
+
+on:
+  push:
+    branches: [docs/featured-builds-catchup]
+    paths:
+      - 'tools/patch_featured.py'
+      - '.github/workflows/patch-featured.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Apply
+        run: python tools/patch_featured.py
+
+      - name: Verify tag balance
+        # An HTML table with unbalanced tags renders as garbage on the profile
+        # page and there is no CI that would otherwise catch it.
+        run: |
+          python - <<'PY'
+          import io, sys
+          t = io.open("README.md", encoding="utf-8").read()
+          pairs = [("<tr>", "</tr>"), ("<td", "</td>"), ("<table", "</table>")]
+          bad = 0
+          for o, c in pairs:
+              a, b = t.count(o), t.count(c)
+              print("%-8s open=%d close=%d" % (o, a, b))
+              if a != b:
+                  bad = 1
+          sys.exit(bad)
+          PY
+
+      - name: Verify every new build is present
+        run: |
+          for s in econ-lakehouse RevisionLedger data-reliability-lab \
+                   tcmb-policy-rag-pipeline btk-sql-lab; do
+            grep -q "$s" README.md || { echo "missing: $s"; exit 1; }
+          done
+          echo "all five present"
+
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git diff --cached --quiet && { echo 'no change'; exit 0; }
+          git commit -m 'docs: add five shipped builds to Featured Builds [skip ci]'
+          git push
