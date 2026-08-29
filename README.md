@@ -2,7 +2,7 @@
 
 # Umut SEVER
 
-**AI & Data Engineering · Economics · Reliability · Real-time Graphics**
+**AI & Data Engineering · Econometrics · Reliability · Real-time Graphics**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-umutseve4.github.io-0D1117?style=for-the-badge&logo=githubpages&logoColor=00E5FF)](https://umutseve4.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Umut_SEVER-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/umut-sever-7851b73a6/)
@@ -12,7 +12,7 @@
 
 ## About me
 
-I am an **Economics Engineering student at Uludağ University** building toward **AI and Data Engineering**. My portfolio centers on real economic data, reproducible pipelines, retrieval-backed AI, CI/CD, and explicit reliability boundaries.
+I am an **Econometrics student at Bursa Uludağ University** building toward **AI and Data Engineering**. My portfolio centers on real economic data, reproducible pipelines, retrieval-backed AI, CI/CD, and explicit reliability boundaries.
 
 I use a simple standard: **measured evidence over absolute claims**. A green workflow proves the checks it actually ran—not production readiness, browser/GPU behavior, or a deployment unless those were independently exercised.
 
@@ -34,9 +34,9 @@ Personal inflation index compared with official TÜİK CPI.
 - FastAPI + PostgreSQL ingestion and API pipeline
 - 13 ECOICOP sub-indices, CSV export, SVG summaries, and history charts
 - Scheduled daily EVDS ingestion and a scheduled `/health` watchdog
-- A verified 100+ automated-test milestone; CI covers Python 3.11, 3.12, and 3.13
+- Historical **116-test milestone**; CI covers Python 3.11, 3.12, and 3.13
 
-**Boundary:** workflow schedules document the automation contract; they do not by themselves prove uninterrupted daily execution or production readiness.
+**Boundary:** workflow schedules document the automation contract; they do not by themselves prove uninterrupted daily execution or production readiness. The test count is a recorded milestone, not a claim about the current collection.
 
 `Python` `FastAPI` `PostgreSQL` `GitHub Actions` `Render`
 
@@ -48,7 +48,7 @@ Economics detective game with source-citing retrieval over World Bank open macro
 
 - FastAPI vertical slice with a deterministic, network-free RAG evaluation path
 - 30-question golden set
-- Recorded evaluation: **hit-rate@3 100%**, **citation accuracy 96.67%**, **keyword coverage 83.33%**
+- Recorded evaluation: **hit-rate@3 100% (30/30)**, **citation accuracy 96.67% (29/30)**, **keyword coverage 83.33% (25/30)**
 - LangGraph, pgvector, and expanded TÜİK coverage remain architecture/roadmap directions where not yet exercised by the current deterministic evaluation
 
 **Boundary:** citation and retrieval metrics reduce unsupported output risk; they are not a zero-hallucination guarantee.
