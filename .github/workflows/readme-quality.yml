@@ -1,0 +1,115 @@
+name: README quality
+
+on:
+  pull_request:
+    paths:
+      - README.md
+      - .github/workflows/readme-quality.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readme-quality-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  readme:
+    name: readme
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the exact pull request head
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Verify exact head and README contract
+        env:
+          EXPECTED_HEAD: ${{ github.event.pull_request.head.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$EXPECTED_HEAD"
+          python3 - <<'PY'
+          import os
+          import re
+          import subprocess
+          from pathlib import Path
+
+          expected_files = {
+              ".github/workflows/readme-quality.yml",
+              "README.md",
+          }
+          changed_files = set(subprocess.check_output(
+              ["git", "diff", "--name-only", f"{os.environ['BASE_SHA']}...HEAD"],
+              text=True,
+          ).splitlines())
+          if changed_files != expected_files:
+              raise SystemExit(f"unexpected PR file scope: {sorted(changed_files)}")
+
+          path = Path("README.md")
+          raw = path.read_bytes()
+          if not raw or b"\0" in raw:
+              raise SystemExit("README must be non-empty and contain no NUL bytes")
+          text = raw.decode("utf-8")
+          if not text.endswith("\n") or text.endswith("\n\n"):
+              raise SystemExit("README must end with exactly one newline")
+          if any(marker in text for marker in ("<<<<<<<", "=======", ">>>>>>>")):
+              raise SystemExit("README contains a merge-conflict marker")
+          if any(line.endswith("\t") or (line.endswith(" ") and not line.endswith("  "))
+                 for line in text.splitlines()):
+              raise SystemExit("README contains invalid trailing whitespace")
+
+          required = (
+              "# Umut SEVER",
+              "Incoming first-year Economics Engineering student",
+              "## Two tracks, one engineering mindset",
+              "## Selected systems",
+              "## How I work",
+              "## Contact",
+              "https://umutseve4.github.io/",
+              "https://github.com/umutseve4/econ-lakehouse",
+              "mailto:2404005065@ogrenci.sbu.edu.tr",
+          )
+          missing = [item for item in required if item not in text]
+          if missing:
+              raise SystemExit(f"missing required README content: {missing}")
+
+          forbidden = (
+              "github-readme-stats",
+              "github-readme-streak-stats",
+              "github-profile-trophy",
+              "readme-typing-svg",
+              "komarev.com/ghpvc",
+              "media.giphy.com",
+              "capsule-render.vercel.app",
+          )
+          present = [item for item in forbidden if item in text]
+          if present:
+              raise SystemExit(f"dynamic profile widget restored: {present}")
+
+          empty_targets = re.findall(r"!?\[[^\]]*\]\(\s*\)", text)
+          if empty_targets:
+              raise SystemExit(f"empty Markdown link target: {empty_targets}")
+
+          print(f"verified exact head {os.environ['EXPECTED_HEAD']}")
+          print("verified README scope, encoding, structure, durable links, and widget boundary")
+          PY
+
+      - name: Publish verification summary
+        if: success()
+        env:
+          VERIFIED_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          {
+            echo "## README quality"
+            echo
+            echo "- Exact head: \`$VERIFIED_HEAD\`"
+            echo "- Scope: \`README.md\` and this validation workflow only"
+            echo "- Result: deterministic README contract passed"
+            echo "- Network link probes: intentionally not performed"
+            echo "- Installed dependencies: none"
+          } >> "$GITHUB_STEP_SUMMARY"
