@@ -4,7 +4,7 @@
 
 ### Data systems with evidence. Visual systems with a pulse.
 
-Economics Engineering student building at the intersection of **data reliability**, **economic software**, and **real-time graphics**.
+Incoming first-year Economics Engineering student building at the intersection of **data reliability**, **economic software**, and **real-time graphics**.
 
 [Portfolio](https://umutseve4.github.io/) · [Selected repositories](#selected-systems) · [LinkedIn](https://www.linkedin.com/in/umut-sever-7851b73a6/) · [Email](mailto:2404005065@ogrenci.sbu.edu.tr)
 
