@@ -1,97 +1,262 @@
-<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<!-- ────────────────────────────  00 / OPENING TITLE  ──────────────────────────── -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Umut%20SEVER&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%26%20Data%20Engineering%20%E2%80%A2%20Economics%20%E2%80%A2%20Real-Time%20Graphics&descAlignY=55&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,45:0d1b2a,100:00e5ff&height=210&section=header&text=UMUT%20SEVER&fontSize=64&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=DATA%20ENGINEERING%20%C3%97%20ECONOMICS%20%C3%97%20REAL-TIME%20GRAPHICS&descAlignY=56&descSize=15" alt="Umut Sever" />
 
-<a href="https://github.com/umutseve4">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=760&lines=AI+%26+Data+Engineering+in+the+making;Economics+Engineering+%40+Uluda%C4%9F+University;Python+%2B+SQL+%2B+FastAPI+%2B+CI%2FCD+pipelines;RAG+agents+on+real+economic+data;I+also+write+raw+GLSL+for+fun" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=00E5FF&center=true&vCenter=true&width=820&lines=Build.+Measure.+Verify.;Economics+Engineering+%40+Uluda%C4%9F+University;Python+%C2%B7+SQL+%C2%B7+dbt+%C2%B7+DuckDB+%C2%B7+FastAPI+%C2%B7+CI%2FCD;Evidence+pages+instead+of+screenshots;And+raw+WebGL2+%2B+hand-written+GLSL+for+the+soul" alt="typing" />
 
 <br/>
 
-<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://umutseve4.github.io">
-  <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=githubpages&logoColor=00E5FF" alt="Portfolio" />
-</a>
-<a href="https://github.com/umutseve4">
-  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub" />
-</a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=umutseve4&label=PROFILE%20VIEWS&color=00e5ff&style=for-the-badge" alt="views" />
-<img src="https://img.shields.io/github/followers/umutseve4?label=FOLLOWERS&style=for-the-badge&color=00e5ff&labelColor=0d1117" alt="followers" />
-<img src="https://img.shields.io/badge/FOCUS-Data%20Engineering%20%2B%20AI-00e5ff?style=for-the-badge&labelColor=0d1117" alt="focus" />
+<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-05070d?style=for-the-badge&logo=githubpages&logoColor=00E5FF" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LINKEDIN-05070d?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" /></a>
+<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-05070d?style=for-the-badge&logo=x&logoColor=00E5FF" alt="X" /></a>
+<img src="https://komarev.com/ghpvc/?username=umutseve4&label=VIEWS&color=00e5ff&style=for-the-badge" alt="views" />
 
 </div>
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/rainbow-superthin.webp" width="100%" />
 
-<!-- ═══════════════════════════ BIO ═══════════════════════════ -->
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;About Me
+<!-- ────────────────────────────  01 / STATEMENT  ──────────────────────────── -->
+<div align="center">
 
-<img align="right" width="330" src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Developer.gif" />
+`01 / STATEMENT`
 
-I'm an **Economics Engineering** student at **Uludağ University** building toward one goal: **AI & Data Engineering** — production pipelines, real data, verified results.
+### **Claims are not proof.**
 
-I don't do tutorial projects. I ship **deployed, tested, CI-verified systems** on real Turkish economic data: a personal inflation index running live in the cloud with 100+ automated tests, a reproducible macro-data pipeline, and a RAG-powered economics detective game.
+</div>
 
-My rule: every project needs a **live URL, a green CI badge, and honest limitations** — or it doesn't count.
+I'm an **Economics Engineering** student at **Bursa Uludağ University**, building toward **data engineering** — pipelines, contracts, run ledgers, and evidence pages that anyone can open and audit.
 
-The differentiator? I also build renderers from scratch — raw **WebGL2 + hand-written GLSL**, zero dependencies, and a racing sim in **Unreal Engine 5**. Whether it's a data pipeline or a fragment shader, I refuse to treat the system as a black box.
+My rule is narrow and unforgiving: a project counts only when it has **a public artifact, a green pipeline, and an honest limitations section**. Where a claim can't be verified, the page says so out loud — including missing scheduled days and synthetic-fixture modes.
 
-🔭 &nbsp;Currently building: live inflation tracker + RAG agent on EVDS/TÜİK data
-🌱 &nbsp;Currently learning: PostgreSQL at depth, Docker, AWS (DEA-C01 target), LangGraph
-💬 &nbsp;Ask me about: data pipelines, FastAPI, CI/CD, econometrics, or shaders
-⚡ &nbsp;Fun fact: I'd rather write 400 lines of GLSL than install one package
-
-<br clear="right"/>
-
-<!-- ═══════════════════════════ WHOAMI ═══════════════════════════ -->
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> &nbsp;`whoami`
+The other half of my brain writes renderers from scratch: **raw WebGL2 with hand-written GLSL**, zero runtime dependencies, plus a UE5 racing sim. Data pipeline or fragment shader — no black boxes either way.
 
 ```python
 class UmutSever:
-    role       = "AI & Data Engineering (in progress, verified milestone by milestone)"
-    school     = "Economics Engineering @ Uludağ University"
+    school     = "Economics Engineering @ Bursa Uludağ University"
     alumni     = "Tofaş Science High School"
     location   = "Bursa, Türkiye 🇹🇷"
+    target     = "AI & Data Engineering — verified milestone by milestone"
 
-    shipping   = ["enflasyonum — live personal inflation index (FastAPI + PostgreSQL)",
-                  "makroquest — RAG economics detective game (LangGraph + pgvector)"]
-    learning   = ["PostgreSQL", "Docker", "AWS Data Engineer Associate", "time series"]
-    edge       = "Graphics programming from scratch — WebGL2/GLSL, UE5, Blender"
+    building   = ["econ-lakehouse", "pulsegrid", "ekodiff", "cosmic-econometric-observatory"]
+    learning   = ["PostgreSQL at depth", "Docker", "AWS DEA-C01", "time series"]
+    edge       = "Zero-dependency WebGL2 / GLSL · UE5 · Blender"
 
-    philosophy = "No black boxes. Tested > claimed. Deployed > demoed."
+    philosophy = "Tested > claimed. Deployed > demoed. Evidence > adjectives."
 ```
 
 <br/>
 
-<!-- ═══════════════════════════ STACK ═══════════════════════════ -->
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> &nbsp;Arsenal
-
+<!-- ────────────────────────────  02 / LIVE SURFACES  ──────────────────────────── -->
 <div align="center">
 
-### 🧠 &nbsp;Data & AI
+`02 / LIVE SURFACES`
+
+### **Open them. They run in your browser.**
+
+Every link below was reachable at the time of writing — no screenshots, no promises.
+
+</div>
+
+| Experience | What it is | Live |
+|---|---|---|
+| **SEVER/05 — Portfolio** | Editorial case-study site: ownership, key decision, and the line between *tested* and *deployed* | [umutseve4.github.io](https://umutseve4.github.io) |
+| **PulseGrid 3D** | A cinematic data-reliability city in Three.js — failure → quarantine → replay → recovery, with a full accessible table equivalent when WebGL is unavailable | [open](https://umutseve4.github.io/pulsegrid-3d/) |
+| **Kozmik Ekonometri Rasathanesi** | 144 real course records, 147 nodes / 146 edges, every row carrying source id, line position and SHA-256 digest | [open](https://umutseve4.github.io/cosmic-econometric-observatory/) |
+| **Tercih Atlası 2026** | Explainable decision surface for 20 career fields — score = `0.30F + 0.25G + 0.20I + 0.15X + 0.10E`, stated as an editorial model, not advice | [open](https://umutseve4.github.io/tercih-atlasi/) |
+| **econ-lakehouse — run evidence** | Static page rendered from an append-only Parquet run ledger; missing days are *shown*, not hidden | [open](https://umutseve4.github.io/econ-lakehouse/) |
+
+<br/>
+
+<!-- ────────────────────────────  03 / SELECTED SYSTEMS  ──────────────────────────── -->
+<div align="center">
+
+`03 / SELECTED SYSTEMS`
+
+### **Work with receipts.**
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏛️ econ-lakehouse
+**Medallion lakehouse for Turkish macro data**
+
+- Python ingest → **Parquet bronze** → **dbt + DuckDB** silver/gold
+- Data-quality gates between every layer
+- Scheduled via GitHub Actions, each execution appended to a **Parquet audit ledger**
+- Evidence page states its own scope: runs use a committed **synthetic fixture** — it proves orchestration, not upstream data freshness
+
+`Python` `dbt` `DuckDB` `Parquet` `Actions`
+
+[→ Repo](https://github.com/umutseve4/econ-lakehouse) · [→ Evidence](https://umutseve4.github.io/econ-lakehouse/)
+
+</td>
+<td width="50%" valign="top">
+
+#### 📈 enflasyonum
+**Personal inflation index vs official TÜİK CPI**
+
+- **FastAPI + PostgreSQL** pipeline, deployed on Render
+- **Laspeyres index across 13 ECOICOP sub-indices** — explainable and CPI-comparable
+- Autonomous daily ingest + watchdog workflow
+- Test suite, live smoke-test workflow, CSV export, SVG summary cards
+
+> Free tier: the first request wakes the instance, so give it a moment.
+
+`Python` `FastAPI` `PostgreSQL` `Render`
+
+[→ Repo](https://github.com/umutseve4/enflasyonum) · [→ Live](https://enflasyonum-7gcn.onrender.com)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🕵️ MakroQuest
+**Economics detective game on real data**
+
+- **LangGraph** agent + **pgvector** retrieval
+- Real EVDS / TÜİK macroeconomic series
+- Every clue cites its source — evaluation sits *beside* generation so unsupported answers can't hide
+
+`Python` `LangGraph` `pgvector` `RAG` `FastAPI`
+
+[→ Repo](https://github.com/umutseve4/makroquest)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🌆 PulseGrid · PulseGrid 3D
+**A data-reliability lab you can watch**
+
+- Observable streaming pipelines: contracts, quarantine, replay, lineage, SLOs
+- The 3D city is not decoration — height maps throughput, light density maps utilization
+- **No WebGL? The full telemetry survives as text.**
+
+`Python` `TypeScript` `Three.js` `data quality`
+
+[→ Lab](https://github.com/umutseve4/pulsegrid) · [→ 3D](https://umutseve4.github.io/pulsegrid-3d/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🔭 Cosmic Econometric Observatory
+**Provenance-first curriculum world engine**
+
+- Deterministic knowledge graph: **147 nodes, 146 edges, 144 course records**
+- Each course carries source id, view id, line position, SHA-256 digest
+- Canvas is never the only information surface — HTML + SVG keep an equal identity set
+
+`TypeScript` `provenance` `a11y`
+
+[→ Repo](https://github.com/umutseve4/cosmic-econometric-observatory) · [→ Live](https://umutseve4.github.io/cosmic-econometric-observatory/)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧭 EkoDiff · Akademik Zaman Makinesi
+**Versioned curriculum snapshots + local-first what-if engine**
+
+- Diffs curriculum versions so a change is visible, not rumoured
+- Runs locally in the browser; no student data leaves the device
+- Independent student project — **not** an official university service
+
+`JavaScript` `local-first` `verify CI`
+
+[→ Repo](https://github.com/umutseve4/ekodiff)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🚀 homefront-universe
+**Universe-scale space RTS, zero dependencies**
+
+- Raw **WebGL2 + hand-written GLSL**, procedural ship meshes, generative textures, GPU instancing
+- Headless deterministic simulation path
+- Frames stamped with engine-state checksums — reproducible, not decorative
+
+`WebGL2` `GLSL` `JavaScript`
+
+[→ Repo](https://github.com/umutseve4/homefront-universe)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🏎️ UludagFormula
+**Original 3D racing sim**
+
+- **Unreal Engine 5.8 + Blender 5.2 LTS**
+- Custom vehicle physics
+- Python-scripted editor automation
+
+`UE5` `Blender` `Python` `C++`
+
+[→ Repo](https://github.com/umutseve4/UludagFormula)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>&nbsp;⌁ &nbsp;More of the workshop &nbsp;— &nbsp;<i>11 further public repositories</i></b></summary>
+
+<br/>
+
+| Repo | One line |
+|---|---|
+| [RevisionLedger](https://github.com/umutseve4/RevisionLedger) | Bitemporal ledger on ALFRED GDPC1 — *what was known when the decision was made?* |
+| [data-reliability-lab](https://github.com/umutseve4/data-reliability-lab) | Failure-simulation lab: data contracts, idempotency, quarantine/replay, lineage, SLOs |
+| [tcmb-policy-rag-pipeline](https://github.com/umutseve4/tcmb-policy-rag-pipeline) | Incremental, versioned TCMB PPK ingestion with citation-backed retrieval |
+| [data-economic-lab](https://github.com/umutseve4/data-economic-lab) | Reproducible TR macro pipeline: ingest → validate → SQLite → analyze → report |
+| [eko-rasathane](https://github.com/umutseve4/eko-rasathane) | Evidence-driven study operating system for BUÜ Ekonometri students |
+| [tercih-atlasi](https://github.com/umutseve4/tercih-atlasi) | Explainable 2026 campus & career decision atlas |
+| [local-market-scanner](https://github.com/umutseve4/local-market-scanner) | Scores digital presence of Bursa health-sector businesses from public OpenStreetMap data |
+| [ledgerpilot](https://github.com/umutseve4/ledgerpilot) | Zero-dependency freemium invoicing SaaS — quota paywall, 14 headless smoke tests |
+| [structurecraft](https://github.com/umutseve4/structurecraft) | Fabric 1.20.1 mod; CI builds the jar **and** boots a real dedicated server every push |
+| [btk-sql-lab](https://github.com/umutseve4/btk-sql-lab) | Codespaces SQL Server 2022 lab — coursework runs in a browser on a machine that can't host it |
+| [neon-overdrive](https://github.com/umutseve4/neon-overdrive) · [the-merge-launch](https://github.com/umutseve4/the-merge-launch) · [threejs-multilevel-chess](https://github.com/umutseve4/threejs-multilevel-chess) | Single-file Three.js experiments: cyberpunk flyer, launch atlas, three-level chess |
+
+</details>
+
+<br/>
+
+<!-- ────────────────────────────  04 / ARSENAL  ──────────────────────────── -->
+<div align="center">
+
+`04 / ARSENAL`
+
+### **Tools, not trophies.**
+
+**Data & AI**
+
 <img src="https://skillicons.dev/icons?i=python,postgres,sqlite,fastapi,docker&theme=dark" />
 <br/>
+<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
+<img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" />
+<img src="https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge&logo=apache&logoColor=white" />
 <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
 <img src="https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge&logo=apache&logoColor=white" />
 <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
 
-### ⚙️ &nbsp;Engineering & Ops
+**Engineering & Ops**
+
 <img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,vscode&theme=dark" />
 <br/>
 <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-<img src="https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Render_Cloud-46E3B7?style=for-the-badge&logo=render&logoColor=white" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+<img src="https://img.shields.io/badge/Render-05070d?style=for-the-badge&logo=render&logoColor=46E3B7" />
 
-### 🎮 &nbsp;Graphics Differentiator
-<img src="https://skillicons.dev/icons?i=unreal,blender,cpp,opengl,ts,js&theme=dark" />
+**Graphics differentiator**
+
+<img src="https://skillicons.dev/icons?i=threejs,unreal,blender,cpp,ts,js&theme=dark" />
 <br/>
 <img src="https://img.shields.io/badge/GLSL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" />
 <img src="https://img.shields.io/badge/WebGL2-990000?style=for-the-badge&logo=webgl&logoColor=white" />
@@ -101,231 +266,53 @@ class UmutSever:
 
 <br/>
 
-<!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"> &nbsp;Featured Builds
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-### 📈 enflasyonum &nbsp;<a href="https://enflasyonum-7gcn.onrender.com/health"><img src="https://img.shields.io/badge/LIVE-00e676?style=flat-square" /></a>
-**Personal inflation index vs official TÜİK CPI**
-
-> Deployed. Tested. Running daily, unattended.
-
-- ⚙️ **FastAPI + PostgreSQL** data pipeline
-- 📊 13 ECOICOP sub-indices, personal vs official rate
-- 🤖 Autonomous daily ingest + watchdog (GitHub Actions)
-- ✅ **116 tests**, live smoke-test workflow, CSV export
-- 🖼️ SVG summary cards & history charts
-
-`Python` `FastAPI` `PostgreSQL` `GitHub Actions` `Render`
-
-<a href="https://github.com/umutseve4/enflasyonum">→ Repo</a> · <a href="https://enflasyonum-7gcn.onrender.com">→ Live</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🕵️ MakroQuest
-**Economics detective game on real data**
-
-> Solve cases with a source-citing RAG agent.
-
-- 🧠 **LangGraph** agent + **pgvector** retrieval
-- 📚 Real EVDS / TÜİK macroeconomic data
-- 🔍 Every clue cites its source — no hallucinated economics
-- ☁️ Fully cloud-native, FastAPI backend
-
-`Python` `LangGraph` `pgvector` `RAG` `FastAPI`
-
-<a href="https://github.com/umutseve4/makroquest">→ Repo</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🏗️ data-economic-lab
-**Reproducible Turkish macro-data pipeline**
-
-- 🔄 ingest → validate → store (SQLite) → analyze → report
-- 🧪 Data validation gates at every stage
-- 📉 Time-series analysis of TR macro indicators
-
-`Python` `pandas` `SQLite` `Data Validation`
-
-<a href="https://github.com/umutseve4/data-economic-lab">→ Repo</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🚀 homefront-universe &nbsp;·&nbsp; 🏎️ UludagFormula
-**The graphics side**
-
-- 🎨 Universe-scale space RTS — raw **WebGL2 + GLSL**, zero deps, procedural meshes, GPU instancing
-- 🏁 Original 3D racing sim — **UE5.8 + Blender**, custom vehicle physics, Python-scripted editor automation
-
-`WebGL2` `GLSL` `Unreal Engine 5` `Blender` `C++`
-
-<a href="https://github.com/umutseve4/homefront-universe">→ RTS</a> · <a href="https://github.com/umutseve4/UludagFormula">→ Racing</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⛏️ StructureCraft
-**Fabric 1.20.1 Minecraft mod**
-
-- 🏰 Blueprint items that generate full structures in-world — cottage, fortress, 129x129 mega city
-- 🛹 Rideable skateboard + flyable airplane entities
-- ✅ CI builds the jar **and** boots a real dedicated server as a smoke test on every push
-
-`Java` `Fabric` `Gradle` `GitHub Actions`
-
-<a href="https://github.com/umutseve4/structurecraft">→ Repo</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🧾 LedgerPilot
-**Freemium invoicing SaaS — zero dependencies**
-
-- 💼 Invoices, clients, expenses, profit & tax reports — all in `localStorage`
-- 💳 Quota paywall + simulated Stripe-style checkout (Luhn validation)
-- ✅ 14 headless smoke tests, CI on every push
-
-`JavaScript` `Vanilla JS` `Zero-dependency` `GitHub Actions`
-
-<a href="https://github.com/umutseve4/ledgerpilot">→ Repo</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### econ-lakehouse
-Medallion lakehouse for Turkish macro data. Python ingest to Parquet bronze,
-dbt + DuckDB for silver/gold, data-quality gates, scheduled via Actions.
-
-**Live:** https://econ-lakehouse-umut.streamlit.app
-`Python` `dbt` `DuckDB` `Parquet`
-
-</td>
-<td width="50%" valign="top">
-
-### RevisionLedger
-Bitemporal ledger answering a question most dashboards quietly get wrong:
-*what was known at the time the decision was made?* Built on ALFRED GDPC1.
-
-`Python` `bitemporal` `evidence-first`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### data-reliability-lab
-Failure-simulation lab for data contracts, idempotency, quarantine/replay,
-lineage and reliability SLOs. Breaking pipelines on purpose to learn how.
-
-`Python` `data quality` `SLO`
-
-</td>
-<td width="50%" valign="top">
-
-### tcmb-policy-rag-pipeline
-Incremental, versioned ingestion of TCMB PPK decisions with citation-backed
-retrieval. Every answer carries the document it came from.
-
-`Python` `RAG` `versioned ingest`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### btk-sql-lab
-Codespaces-based SQL Server 2022 lab, built so the coursework runs from a
-browser on a machine that cannot host it locally.
-
-`SQL Server` `Codespaces` `Shell`
-
-</td>
-<td width="50%" valign="top">
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ═══════════════════════════ STATS ═══════════════════════════ -->
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> &nbsp;Telemetry
-
+<!-- ────────────────────────────  05 / TELEMETRY  ──────────────────────────── -->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=umutseve4&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umutseve4&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=c9d1d9" />
+`05 / TELEMETRY`
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=umutseve4&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=05070d&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umutseve4&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=05070d&title_color=00E5FF&text_color=c9d1d9" />
 
 <br/>
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=umutseve4&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=umutseve4&theme=tokyonight&hide_border=true&background=05070d&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" />
 
 <br/><br/>
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=umutseve4&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Telemetry" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=umutseve4&bg_color=05070d&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Telemetry" />
 
 <br/>
-
-<img width="96%" src="https://github-profile-trophy.vercel.app/?username=umutseve4&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;My Contributions Get Eaten
-
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/umutseve4/umutseve4/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/umutseve4/umutseve4/output/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/umutseve4/umutseve4/output/github-snake.svg" width="100%" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/umutseve4/umutseve4/output/github-snake.svg" width="100%" />
 </picture>
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════ QUOTE ═══════════════════════════ -->
+<!-- ────────────────────────────  06 / CONTACT  ──────────────────────────── -->
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" />
+`06 / HANDOFF`
 
-</div>
+### **Let's build something measurable.**
 
-<br/>
+Open to **data engineering internships**, junior roles, and engineering collaboration.
 
-<!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
-## <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="28"> &nbsp;Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://umutseve4.github.io">
-  <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=githubpages&logoColor=00E5FF" />
-</a>
-<a href="https://x.com/umutseve4">
-  <img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=00E5FF" />
-</a>
+<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/Portfolio-05070d?style=for-the-badge&logo=githubpages&logoColor=00E5FF" /></a>
+<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-05070d?style=for-the-badge&logo=x&logoColor=00E5FF" /></a>
 
 <br/><br/>
 
-**⭐ From [umutseve4](https://github.com/umutseve4) — tested > claimed, deployed > demoed.**
+**⭐ tested > claimed · deployed > demoed · evidence > adjectives**
+
+<sub>Motion here is decoration; the proof lives in the linked pipelines, ledgers and limitation notes.</sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=140&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e5ff,55:0d1b2a,100:05070d&height=140&section=footer" width="100%" />
