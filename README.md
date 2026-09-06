@@ -1,4 +1,3 @@
-![Uploading Designer (6).png…]()
 <!-- ────────────────────────────  00 / OPENING TITLE  ──────────────────────────── -->
 <div align="center">
 
