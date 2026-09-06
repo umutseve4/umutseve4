@@ -1,7 +1,7 @@
 <!-- ────────────────────────────  00 / OPENING TITLE  ──────────────────────────── -->
 <div align="center">
 
-<img width="100%" src="https://umutseve4.github.io/brand/banner-1500x500.png" alt="ZİFT — Umut Sever · evidence over adjectives" />
+<img width="100%" src="https://umutseve4.github.io/cover/zift-banner.svg" alt="ZİFT — Umut Sever · evidence over adjectives" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=FF4D4F&center=true&vCenter=true&width=820&lines=Build.+Measure.+Verify.;Econometrics+%28Ekonometri%29+%40+Uluda%C4%9F+University;Python+%C2%B7+SQL+%C2%B7+dbt+%C2%B7+DuckDB+%C2%B7+FastAPI+%C2%B7+CI%2FCD;Evidence+pages+instead+of+screenshots;And+raw+WebGL2+%2B+hand-written+GLSL+for+the+soul" alt="typing" />
 
