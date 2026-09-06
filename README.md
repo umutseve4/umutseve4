@@ -235,7 +235,7 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 </table>
 
 <details>
-<summary><b>&nbsp;⌱ &nbsp;More of the workshop &nbsp;— &nbsp;<i>11 further public repositories</i></b></summary>
+<summary><b>&nbsp;⌁ &nbsp;More of the workshop &nbsp;— &nbsp;<i>11 further public repositories</i></b></summary>
 
 <br/>
 
