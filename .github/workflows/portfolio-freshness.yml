@@ -1,0 +1,52 @@
+name: portfolio-freshness
+
+# Read-only freshness monitor for PUBLIC repositories.
+#
+# v1 deliberately runs on workflow_dispatch ONLY. The schedule below stays
+# commented out until one manual run has been verified end to end. Enabling it
+# is a one-line change, reviewed on its own.
+#
+# When enabling: keep the minute off the top of the hour (GitHub delays or drops
+# schedules that pile up at :00), and remember that a PUBLIC repository with no
+# activity for 60 days has its scheduled workflows automatically disabled.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Sadece rapor bas, issue'ya yazma"
+        type: boolean
+        default: false
+  # schedule:
+  #   - cron: '17 3 * * 6'   # Cumartesi 03:17 UTC
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: portfolio-freshness
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout (pinned, no credential persistence)
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+
+      # No setup-python: the runner ships Python 3, and the script uses only the
+      # standard library. One less pinned third-party action = smaller supply chain.
+      - name: Self-test (offline, no network, no writes)
+        run: python3 scripts/test_portfolio_freshness.py
+
+      - name: Run audit and update the single tracking issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_OWNER: umutseve4
+          CONTROL_REPO: ${{ github.repository }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: python3 scripts/portfolio_freshness.py
