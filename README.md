@@ -235,7 +235,7 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 </table>
 
 <details>
-<summary><b>&nbsp;⌗ &nbsp;More of the workshop &nbsp;— &nbsp;<i>11 further public repositories</i></b></summary>
+<summary><b>&nbsp;⌗ &nbsp;More of the workshop &nbsp;— &nbsp;<i>further public repositories</i></b></summary>
 
 <br/>
 
@@ -251,7 +251,10 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 | [ledgerpilot](https://github.com/umutseve4/ledgerpilot) | Zero-dependency freemium invoicing SaaS — quota paywall, 14 headless smoke tests |
 | [structurecraft](https://github.com/umutseve4/structurecraft) | Fabric 1.20.1 mod; CI builds the jar **and** boots a real dedicated server every push |
 | [btk-sql-lab](https://github.com/umutseve4/btk-sql-lab) | Codespaces SQL Server 2022 lab — coursework runs in a browser on a machine that can't host it |
-| [neon-overdrive](https://github.com/umutseve4/neon-overdrive) · [the-merge-launch](https://github.com/umutseve4/the-merge-launch) · [threejs-multilevel-chess](https://github.com/umutseve4/threejs-multilevel-chess) | Single-file Three.js experiments: cyberpunk flyer, launch atlas, three-level chess |
+| [scanline](https://github.com/umutseve4/scanline) | Software rasterizer with no GPU: clipping, z-buffer, PCF shadows, ACES — CI proves it draws pixels |
+| [neon-lunapark-webgl](https://github.com/umutseve4/neon-lunapark-webgl) | Single-file Three.js night carnival: coaster train, ferris wheel, three lighting modes |
+| [the-merge-launch](https://github.com/umutseve4/the-merge-launch) · [threejs-multilevel-chess](https://github.com/umutseve4/threejs-multilevel-chess) | Single-file experiments: launch atlas microsite, three-level 3D chess |
+| [neon-overdrive](https://github.com/umutseve4/neon-overdrive) | **Placeholder — no code committed yet.** Listed because the repository is public, not because it runs |
 
 </details>
 
