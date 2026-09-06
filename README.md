@@ -3,14 +3,14 @@
 
 <img width="100%" src="https://umutseve4.github.io/brand/banner-1500x500.png" alt="ZİFT — Umut Sever · evidence over adjectives" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=F2CC60&center=true&vCenter=true&width=820&lines=Build.+Measure.+Verify.;Economics+Engineering+%40+Uluda%C4%9F+University;Python+%C2%B7+SQL+%C2%B7+dbt+%C2%B7+DuckDB+%C2%B7+FastAPI+%C2%B7+CI%2FCD;Evidence+pages+instead+of+screenshots;And+raw+WebGL2+%2B+hand-written+GLSL+for+the+soul" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=FF4D4F&center=true&vCenter=true&width=820&lines=Build.+Measure.+Verify.;Economics+Engineering+%40+Uluda%C4%9F+University;Python+%C2%B7+SQL+%C2%B7+dbt+%C2%B7+DuckDB+%C2%B7+FastAPI+%C2%B7+CI%2FCD;Evidence+pages+instead+of+screenshots;And+raw+WebGL2+%2B+hand-written+GLSL+for+the+soul" alt="typing" />
 
 <br/>
 
-<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-0B0B0B?style=for-the-badge&logo=githubpages&logoColor=F2CC60" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LINKEDIN-0B0B0B?style=for-the-badge&logo=linkedin&logoColor=F2CC60" alt="LinkedIn" /></a>
-<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-0B0B0B?style=for-the-badge&logo=x&logoColor=F2CC60" alt="X" /></a>
-<img src="https://komarev.com/ghpvc/?username=umutseve4&label=VIEWS&color=F2CC60&style=for-the-badge" alt="views" />
+<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-0B0B0B?style=for-the-badge&logo=githubpages&logoColor=FF4D4F" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LINKEDIN-0B0B0B?style=for-the-badge&logo=linkedin&logoColor=FF4D4F" alt="LinkedIn" /></a>
+<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-0B0B0B?style=for-the-badge&logo=x&logoColor=FF4D4F" alt="X" /></a>
+<img src="https://komarev.com/ghpvc/?username=umutseve4&label=VIEWS&color=FF4D4F&style=for-the-badge" alt="views" />
 
 </div>
 
@@ -224,8 +224,8 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 #### ⬛ ZİFT — brand system
 **One vector master, every raster generated**
 
-- `brand/zift.svg` is the only hand-authored file; CI renders 19 assets from it
-- A legibility gate measures the amber slits at 32px and **fails the build** if the mark stops reading
+- `brand/zift.svg` is the only hand-authored file; CI renders 18 assets in `brand/` plus the repo-root favicon
+- A legibility gate measures the signal-red slits at 32px and **fails the build** if the mark stops reading
 - Icons and link previews are injected into the site head by the same workflow, so surfaces cannot drift
 
 `SVG` `Actions` `Pillow` `rsvg`
@@ -303,16 +303,16 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 
 `05 / TELEMETRY`
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=umutseve4&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0B0B0B&title_color=F2CC60&icon_color=F2CC60&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umutseve4&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0B0B0B&title_color=F2CC60&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=umutseve4&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0B0B0B&title_color=FF4D4F&icon_color=FF4D4F&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umutseve4&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0B0B0B&title_color=FF4D4F&text_color=c9d1d9" />
 
 <br/>
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=umutseve4&theme=tokyonight&hide_border=true&background=0B0B0B&ring=F2CC60&fire=F2CC60&currStreakLabel=F2CC60" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=umutseve4&theme=tokyonight&hide_border=true&background=0B0B0B&ring=FF4D4F&fire=FF4D4F&currStreakLabel=FF4D4F" />
 
 <br/><br/>
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=umutseve4&bg_color=0B0B0B&color=F2CC60&line=F2CC60&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Telemetry" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=umutseve4&bg_color=0B0B0B&color=FF4D4F&line=FF4D4F&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Telemetry" />
 
 <br/>
 
@@ -336,8 +336,8 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 Open to **data engineering internships**, junior roles, and engineering collaboration.
 
 <a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/Portfolio-0B0B0B?style=for-the-badge&logo=githubpages&logoColor=F2CC60" /></a>
-<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-0B0B0B?style=for-the-badge&logo=x&logoColor=F2CC60" /></a>
+<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/Portfolio-0B0B0B?style=for-the-badge&logo=githubpages&logoColor=FF4D4F" /></a>
+<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-0B0B0B?style=for-the-badge&logo=x&logoColor=FF4D4F" /></a>
 
 <br/><br/>
 
