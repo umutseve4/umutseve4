@@ -23,7 +23,7 @@
 
 </div>
 
-I'm an incoming first-year **Econometrics (Ekonometri)** student at **Bursa Uludağ University**, building toward **data engineering** — pipelines, contracts, run ledgers, and evidence pages that anyone can open and audit.
+I'm an incoming first-year **Economics Engineering** student at **Bursa Uludağ University**, building toward **data engineering** — pipelines, contracts, run ledgers, and evidence pages that anyone can open and audit.
 
 My rule is narrow and unforgiving: a project counts only when it has **a public artifact, a green pipeline, and an honest limitations section**. Where a claim can't be verified, the page says so out loud — including missing scheduled days and synthetic-fixture modes.
 
