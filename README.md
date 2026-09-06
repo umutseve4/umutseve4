@@ -7,7 +7,7 @@
 ### Merhaba, ben Umut 👋
 
 Ekonomiyle ilgili sayıları toplayıp **tarayıcıda açılan** şeylere çeviriyorum.
-Aşağıdakilerin hepsi şu anda canlı — kurulum yok, klonlama yok, tek tık.
+Aşağıdakilerin hepsi şu anda canlı.
 
 <br>
 
