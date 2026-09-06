@@ -14,8 +14,6 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/rainbow-superthin.webp" width="100%" />
-
 <!-- ────────────────────────────  01 / STATEMENT  ──────────────────────────── -->
 <div align="center">
 
@@ -25,7 +23,7 @@
 
 </div>
 
-I'm an **Economics Engineering** student at **Bursa Uludağ University**, building toward **data engineering** — pipelines, contracts, run ledgers, and evidence pages that anyone can open and audit.
+I'm an incoming first-year **Econometrics (Ekonometri)** student at **Bursa Uludağ University**, building toward **data engineering** — pipelines, contracts, run ledgers, and evidence pages that anyone can open and audit.
 
 My rule is narrow and unforgiving: a project counts only when it has **a public artifact, a green pipeline, and an honest limitations section**. Where a claim can't be verified, the page says so out loud — including missing scheduled days and synthetic-fixture modes.
 
@@ -33,7 +31,7 @@ The other half of my brain writes renderers from scratch: **raw WebGL2 with hand
 
 ```python
 class UmutSever:
-    school     = "Economics Engineering @ Bursa Uludağ University"
+    school     = "Econometrics (Ekonometri) @ Bursa Uludağ University"
     alumni     = "Tofaş Science High School"
     location   = "Bursa, Türkiye 🇹🇷"
     target     = "AI & Data Engineering — verified milestone by milestone"
