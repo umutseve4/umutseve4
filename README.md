@@ -224,7 +224,7 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 #### ⬛ ZİFT — brand system
 **One vector master, every raster generated**
 
-- `brand/zift.svg` is the only hand-authored file; CI renders 18 assets in `brand/` plus the repo-root favicon
+- `brand/zift.svg` is the only hand-authored file; CI renders 17 files into `brand/` plus the repo-root favicon, 18 in all
 - A legibility gate measures the signal-red slits at 32px and **fails the build** if the mark stops reading
 - Icons and link previews are injected into the site head by the same workflow, so surfaces cannot drift
 
