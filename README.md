@@ -38,7 +38,7 @@ Ekonometri müfredatının **147 düğüm / 146 kenarlık** bilgi evreni. Bir de
 <td width="50%" valign="top">
 
 ### 🔍 EkoDiff
-İki müfredat sürümünü yan yana koyuyor. Hangi ders eklendi, hangisi kalktı, kredisi değişti mi — satır satır, renk renk.
+İki müfredat sürümünü yan yana koyuyor: ne eklendi, ne kalktı, AKTS kaydı mı. Üstüne transkript girip ortalama senaryosu deneyebiliyorsun; veri tarayıcından çıkmıyor.
 
 <a href="https://umutseve4.github.io/ekodiff/"><img src="https://img.shields.io/badge/▶%20Aç-8B5CF6?style=for-the-badge"></a>
 <img src="https://img.shields.io/badge/~40%20sn-1F2937?style=for-the-badge">
@@ -49,7 +49,7 @@ Ekonometri müfredatının **147 düğüm / 146 kenarlık** bilgi evreni. Bir de
 <td width="50%" valign="top">
 
 ### 🗺️ Tercih Atlası
-EA/SAY alanları için tercih haritası. Her skorun altında **neden o skor** yazıyor, kutu kapalı değil.
+**30 karşılaştırılabilir seçenek**, 20 kariyer alanı. Skorun formülü sayfada açık yazıyor: `0.30F + 0.25G + 0.20I + 0.15X + 0.10E`.
 
 <a href="https://umutseve4.github.io/tercih-atlasi/"><img src="https://img.shields.io/badge/▶%20Aç-F5A524?style=for-the-badge"></a>
 <img src="https://img.shields.io/badge/~45%20sn-1F2937?style=for-the-badge">
