@@ -13,29 +13,27 @@
 ---
 
 Bir iddia yazmadan önce onu ölçen testi yazıyorum.
-Burada gördüğünüz her şey ya tarayıcıda açılıyor ya bir komutla çalışıyor.
-Açılmayan, çalışmayan, ölçülmeyen şey bu sayfada yer almıyor.
+Aşağıdakilerin her biri ya tarayıcıda açılıyor ya bir komutla çalışıyor.
+Her sayının yanında nereden okunduğu yazılı.
 
 **Umut Sever** — Bursa Uludağ Üniversitesi, Ekonometri (dersler 28 Eylül 2026'da başlıyor).
 
 ---
 
-## ▸ 30 saniyede ne yapabilirsin
+## ▸ 30 saniyede açılanlar
 
-Kurulum yok, klonlama yok. Aşağıdaki bağlantılar şu anda canlı:
+Kurulum ya da klonlama gerekmiyor; bağlantılar şu anda canlı.
 
-| Aç | Ne görürsün | Süre |
+| Bağlantı | İçerik | Süre |
 | --- | --- | --- |
-| [Cosmic Econometric Observatory](https://umutseve4.github.io/cosmic-econometric-observatory/) | Ekonometri müfredatının 147 düğüm / 146 kenarlık bilgi evreni; ders seçince ön koşul zinciri aydınlanır | ~60 sn |
-| [EkoDiff](https://umutseve4.github.io/ekodiff/) | İki müfredat sürümünü yan yana koyar, hangi dersin eklendiğini/kalktığını satır satır gösterir | ~40 sn |
+| [Cosmic Econometric Observatory](https://umutseve4.github.io/cosmic-econometric-observatory/) | Ekonometri müfredatının 147 düğüm / 146 kenarlık bilgi evreni; ders seçilince ön koşul zinciri aydınlanır | ~60 sn |
+| [EkoDiff](https://umutseve4.github.io/ekodiff/) | İki müfredat sürümünü yan yana koyar, hangi dersin eklendiğini ya da kalktığını satır satır gösterir | ~40 sn |
 | [econ-lakehouse — kanıt sayfası](https://umutseve4.github.io/econ-lakehouse/) | Veri hattının koşu defteri: eksik günler `MISSING` olarak yazılır, sayfa 30 saatte kendini `STALE` ilan eder | ~30 sn |
-| [Tercih Atlası](https://umutseve4.github.io/tercih-atlasi/) | EA/SAY alanları için açıklanabilir tercih haritası — her skorun altında nedeni yazıyor | ~45 sn |
+| [Tercih Atlası](https://umutseve4.github.io/tercih-atlasi/) | EA/SAY alanları için açıklanabilir tercih haritası; her skorun altında nedeni yazıyor | ~45 sn |
 | [Uludağ Kampüs Turu](https://umutseve4.github.io/uludag-campus-tour-webgl/) | Görükle kampüsünde tek dosyalık sinematik yürüyüş, WebGL | ~90 sn |
 | [Çanakkale 1915](https://umutseve4.github.io/canakkale-1915-webgl/) | Prosedürel deniz, sis ve ışık; hiçbir varlık dosyası indirilmez | ~90 sn |
 | [PulseGrid 3D](https://umutseve4.github.io/pulsegrid-3d/) | Veri hattı sağlığını şehir olarak gösteren canlı görselleştirme | ~60 sn |
 | [SEVER/05 — portföy](https://umutseve4.github.io/) | Tüm yüzeylerin tek sayfalık girişi | ~20 sn |
-
-Üçüncü bir adım yok. Beğenmezsen sekmeyi kapat.
 
 ## ▸ Yerelde çalıştır
 
@@ -46,7 +44,7 @@ pip install -r requirements.txt
 python orchestrate.py
 ```
 
-Çıktı: bronze → silver → gold zinciri, her adımın satır sayısı ve kalite kapısı sonucu; hata varsa süreç sıfırdan farklı kodla çıkar. Anahtar vermezseniz depoya işlenmiş sentetik fixture kullanılır — ağ gerekmez, iki çalıştırma aynı sonucu verir. Gerçek veri isterseniz `EVDS_API_KEY=... python orchestrate.py`.
+Çıktı: bronze → silver → gold zinciri, her adımın satır sayısı ve kalite kapısı sonucu; hata varsa süreç sıfırdan farklı kodla çıkar. Anahtar verilmediğinde depoya işlenmiş sentetik fixture kullanılır — ağ gerekmez, iki çalıştırma aynı sonucu verir. Gerçek veri için: `EVDS_API_KEY=... python orchestrate.py`.
 
 ## ▸ Ne üzerine çalışıyorum
 
@@ -72,13 +70,13 @@ python orchestrate.py
 | Müfredat kaydı — Cosmic | 144 ders, 147 düğüm, 146 kenar | Depodaki veri kümesi ve doğrulama testi |
 | Marka varlığı — ZİFT | 1 vektör master, 17 raster, 1 favicon | CI iş akışı her push'ta yeniden üretir |
 
-Bu tablodaki hiçbir sayı elle uydurulmadı; her biri bir uç noktadan ya da bir testten okundu.
+Her satırın sağ sütunu, o sayının okunduğu uç noktayı ya da testi gösteriyor.
 
 ## ▸ Nasıl yapıldı
 
-Tek renk kuralı var: `#FF4D4F`. Vurgu bir kere kullanılır; iki kere kullanılırsa vurgu olmaktan çıkar.
-Görsel varlıklar depoya elle atılmaz; ZİFT markasının 18 çıktısı tek bir vektör kaynaktan CI tarafından üretilir.
-Kırmızı bir kapıyı "sonra bakarım" diye geçmiyorum; düzeltilen her yanlış iddia, silinmek yerine README'de düzeltildiği yazılarak duruyor.
+Renk paleti tek aksana indirgenmiş durumda: `#FF4D4F`, sayfa başına bir kez.
+Görsel varlıklar depoya elle atılmıyor; ZİFT markasının 18 çıktısı tek bir vektör kaynaktan CI tarafından üretiliyor.
+Kırmızı bir CI kapısı varken yayına çıkılmıyor; düzeltilen yanlış bir iddia da silinmek yerine, düzeltildiği not edilerek bırakılıyor.
 
 ### Sınırlar
 
