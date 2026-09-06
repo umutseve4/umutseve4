@@ -1,16 +1,16 @@
 <!-- ────────────────────────────  00 / OPENING TITLE  ──────────────────────────── -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,45:0d1b2a,100:00e5ff&height=210&section=header&text=UMUT%20SEVER&fontSize=64&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=DATA%20ENGINEERING%20%C3%97%20ECONOMICS%20%C3%97%20REAL-TIME%20GRAPHICS&descAlignY=56&descSize=15" alt="Umut Sever" />
+<img width="100%" src="https://umutseve4.github.io/brand/banner-1500x500.png" alt="ZİFT — Umut Sever · evidence over adjectives" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=00E5FF&center=true&vCenter=true&width=820&lines=Build.+Measure.+Verify.;Economics+Engineering+%40+Uluda%C4%9F+University;Python+%C2%B7+SQL+%C2%B7+dbt+%C2%B7+DuckDB+%C2%B7+FastAPI+%C2%B7+CI%2FCD;Evidence+pages+instead+of+screenshots;And+raw+WebGL2+%2B+hand-written+GLSL+for+the+soul" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=F2CC60&center=true&vCenter=true&width=820&lines=Build.+Measure.+Verify.;Economics+Engineering+%40+Uluda%C4%9F+University;Python+%C2%B7+SQL+%C2%B7+dbt+%C2%B7+DuckDB+%C2%B7+FastAPI+%C2%B7+CI%2FCD;Evidence+pages+instead+of+screenshots;And+raw+WebGL2+%2B+hand-written+GLSL+for+the+soul" alt="typing" />
 
 <br/>
 
-<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-05070d?style=for-the-badge&logo=githubpages&logoColor=00E5FF" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LINKEDIN-05070d?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" /></a>
-<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-05070d?style=for-the-badge&logo=x&logoColor=00E5FF" alt="X" /></a>
-<img src="https://komarev.com/ghpvc/?username=umutseve4&label=VIEWS&color=00e5ff&style=for-the-badge" alt="views" />
+<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-0B0B0B?style=for-the-badge&logo=githubpages&logoColor=F2CC60" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LINKEDIN-0B0B0B?style=for-the-badge&logo=linkedin&logoColor=F2CC60" alt="LinkedIn" /></a>
+<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-0B0B0B?style=for-the-badge&logo=x&logoColor=F2CC60" alt="X" /></a>
+<img src="https://komarev.com/ghpvc/?username=umutseve4&label=VIEWS&color=F2CC60&style=for-the-badge" alt="views" />
 
 </div>
 
@@ -64,6 +64,8 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 | **PulseGrid 3D** | A cinematic data-reliability city in Three.js — failure → quarantine → replay → recovery, with a full accessible table equivalent when WebGL is unavailable | [open](https://umutseve4.github.io/pulsegrid-3d/) |
 | **Kozmik Ekonometri Rasathanesi** | 144 real course records, 147 nodes / 146 edges, every row carrying source id, line position and SHA-256 digest | [open](https://umutseve4.github.io/cosmic-econometric-observatory/) |
 | **Tercih Atlası 2026** | Explainable decision surface for 20 career fields — score = `0.30F + 0.25G + 0.20I + 0.15X + 0.10E`, stated as an editorial model, not advice | [open](https://umutseve4.github.io/tercih-atlasi/) |
+| **Çanakkale 1915** | Single-file Three.js cinematic scene — a commemorative sequence, not a game; motion respects `prefers-reduced-motion` | [open](https://umutseve4.github.io/canakkale-1915-webgl/) |
+| **EkoDiff — Akademik Zaman Makinesi** | Curriculum version diffs and a local-first what-if engine; nothing about a student leaves the browser | [open](https://umutseve4.github.io/ekodiff/) |
 | **econ-lakehouse — run evidence** | Static page rendered from an append-only Parquet run ledger; missing days are *shown*, not hidden | [open](https://umutseve4.github.io/econ-lakehouse/) |
 
 <br/>
@@ -168,7 +170,7 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 
 `JavaScript` `local-first` `verify CI`
 
-[→ Repo](https://github.com/umutseve4/ekodiff)
+[→ Repo](https://github.com/umutseve4/ekodiff) · [→ Live](https://umutseve4.github.io/ekodiff/)
 
 </td>
 </tr>
@@ -189,6 +191,22 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 </td>
 <td width="50%" valign="top">
 
+#### 🕯️ Çanakkale 1915 · Gallipoli 1915
+**Commemorative WebGL sequences**
+
+- Single-file Three.js scenes — no build step, no bundler, no tracking
+- Turkish and English editions kept as separate surfaces rather than a language toggle bolted on
+- Reduced-motion path is a real path, not a disabled animation
+
+`Three.js` `WebGL` `a11y`
+
+[→ TR](https://umutseve4.github.io/canakkale-1915-webgl/) · [→ EN](https://umutseve4.github.io/gallipoli-1915-webgl/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 #### 🏎️ UludagFormula
 **Original 3D racing sim**
 
@@ -199,6 +217,20 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 `UE5` `Blender` `Python` `C++`
 
 [→ Repo](https://github.com/umutseve4/UludagFormula)
+
+</td>
+<td width="50%" valign="top">
+
+#### ⬛ ZİFT — brand system
+**One vector master, every raster generated**
+
+- `brand/zift.svg` is the only hand-authored file; CI renders 19 assets from it
+- A legibility gate measures the amber slits at 32px and **fails the build** if the mark stops reading
+- Icons and link previews are injected into the site head by the same workflow, so surfaces cannot drift
+
+`SVG` `Actions` `Pillow` `rsvg`
+
+[→ Guide](https://github.com/umutseve4/umutseve4.github.io/blob/main/brand/README.md)
 
 </td>
 </tr>
@@ -252,7 +284,7 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 <br/>
 <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-<img src="https://img.shields.io/badge/Render-05070d?style=for-the-badge&logo=render&logoColor=46E3B7" />
+<img src="https://img.shields.io/badge/Render-0B0B0B?style=for-the-badge&logo=render&logoColor=46E3B7" />
 
 **Graphics differentiator**
 
@@ -271,16 +303,16 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 
 `05 / TELEMETRY`
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=umutseve4&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=05070d&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umutseve4&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=05070d&title_color=00E5FF&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=umutseve4&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0B0B0B&title_color=F2CC60&icon_color=F2CC60&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umutseve4&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0B0B0B&title_color=F2CC60&text_color=c9d1d9" />
 
 <br/>
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=umutseve4&theme=tokyonight&hide_border=true&background=05070d&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=umutseve4&theme=tokyonight&hide_border=true&background=0B0B0B&ring=F2CC60&fire=F2CC60&currStreakLabel=F2CC60" />
 
 <br/><br/>
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=umutseve4&bg_color=05070d&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Telemetry" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=umutseve4&bg_color=0B0B0B&color=F2CC60&line=F2CC60&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Telemetry" />
 
 <br/>
 
@@ -304,15 +336,15 @@ Every link below was reachable at the time of writing — no screenshots, no pro
 Open to **data engineering internships**, junior roles, and engineering collaboration.
 
 <a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/Portfolio-05070d?style=for-the-badge&logo=githubpages&logoColor=00E5FF" /></a>
-<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-05070d?style=for-the-badge&logo=x&logoColor=00E5FF" /></a>
+<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/Portfolio-0B0B0B?style=for-the-badge&logo=githubpages&logoColor=F2CC60" /></a>
+<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-0B0B0B?style=for-the-badge&logo=x&logoColor=F2CC60" /></a>
 
 <br/><br/>
+
+<img src="https://umutseve4.github.io/brand/zift-mark-128.png" width="76" alt="ZİFT" />
 
 **⭐ tested > claimed · deployed > demoed · evidence > adjectives**
 
 <sub>Motion here is decoration; the proof lives in the linked pipelines, ledgers and limitation notes.</sub>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e5ff,55:0d1b2a,100:05070d&height=140&section=footer" width="100%" />
