@@ -1,19 +1,3 @@
-<!-- ────────────────────────────  00 / OPENING TITLE  ──────────────────────────── -->
-<div align="center">
-
-<img width="100%" src="https://umutseve4.github.io/cover/zift-banner.svg" alt="ZİFT — Umut Sever · evidence over adjectives" />
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=FF4D4F&center=true&vCenter=true&width=1000&lines=Build.+Measure.+Verify.;Econometrics+%28Ekonometri%29+%40+Uluda%C4%9F+University;Python+%C2%B7+SQL+%C2%B7+dbt+%C2%B7+DuckDB+%C2%B7+FastAPI+%C2%B7+CI%2FCD;Evidence+pages+instead+of+screenshots;And+raw+WebGL2+%2B+hand-written+GLSL+for+the+soul" alt="Build. Measure. Verify." />
-
-<br/>
-
-<a href="https://umutseve4.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-0B0B0B?style=for-the-badge&logo=githubpages&logoColor=FF4D4F" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/umut-sever-7851b73a6/"><img src="https://img.shields.io/badge/LINKEDIN-0B0B0B?style=for-the-badge&logo=linkedin&logoColor=FF4D4F" alt="LinkedIn" /></a>
-<a href="https://x.com/umutseve4"><img src="https://img.shields.io/badge/X-0B0B0B?style=for-the-badge&logo=x&logoColor=FF4D4F" alt="X" /></a>
-<img src="https://komarev.com/ghpvc/?username=umutseve4&label=VIEWS&color=FF4D4F&style=for-the-badge" alt="profile views" />
-
-</div>
-
 <!-- ────────────────────────────  01 / STATEMENT  ──────────────────────────── -->
 <div align="center">
 
