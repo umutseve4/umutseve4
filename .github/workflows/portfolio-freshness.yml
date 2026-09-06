@@ -2,13 +2,20 @@ name: portfolio-freshness
 
 # Read-only freshness monitor for PUBLIC repositories.
 #
-# v1 deliberately runs on workflow_dispatch ONLY. The schedule below stays
-# commented out until one manual run has been verified end to end. Enabling it
-# is a one-line change, reviewed on its own.
+# The schedule below was enabled on 2026-09-06 only after three manual runs
+# proved the whole path end to end:
+#   run #1 (dry_run)  -> 29 public repos scanned, 0 missing values, real topic
+#                        counts (the API does return `topics` on this endpoint)
+#   run #2            -> tracking issue #6 created, label auto-created by GitHub
+#   run #3            -> the SAME issue was updated (no duplicate), and the
+#                        "previous report" stamp rendered correctly
+# That third run is what makes a weekly cron safe: without proven idempotency
+# a schedule would open a fresh issue every Saturday.
 #
-# When enabling: keep the minute off the top of the hour (GitHub delays or drops
-# schedules that pile up at :00), and remember that a PUBLIC repository with no
-# activity for 60 days has its scheduled workflows automatically disabled.
+# The minute is deliberately off the top of the hour: GitHub delays or drops
+# schedules that pile up at :00. Note also that a PUBLIC repository with no
+# activity for 60 days has its scheduled workflows automatically disabled --
+# the generation timestamp inside the issue is how you notice that happening.
 
 on:
   workflow_dispatch:
@@ -17,8 +24,8 @@ on:
         description: "Sadece rapor bas, issue'ya yazma"
         type: boolean
         default: false
-  # schedule:
-  #   - cron: '17 3 * * 6'   # Cumartesi 03:17 UTC
+  schedule:
+    - cron: '17 3 * * 6'   # Cumartesi 03:17 UTC
 
 permissions:
   contents: read
