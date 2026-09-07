@@ -189,18 +189,6 @@ Yukarıda geçen her rakamın okunduğu yer burada. Kontrol etmek istersen sağ 
 
 ---
 
-## ⚠️ Neyi iddia etmiyorum
-
-Bunları yazıyorum çünkü yukarıdaki tablo tek başına yanıltıcı olabilir.
-
-- `econ-lakehouse` varsayılan olarak **canlı akışa bağlı değil**, sentetik fixture üzerinde çalışıyor. Üst kaynak `TP.FG.J0` **2026-01**'de donmuş durumda ve CI'daki tazelik feragati **5 Ekim 2026**'da bitiyor — o gün kapı yeniden kırmızıya dönecek.
-- WebGL sahneleri **masaüstü Chromium**'da kabul testinden geçti. Düşük güçlü mobil cihazlarda kare hızı için elimde ölçüm yok.
-- Repo ve yıldız sayıları yalnızca **herkese açık** depoları kapsıyor.
-- Ekonometri lisansım **henüz başlamadı** (28 Eylül 2026). Buradakiler öğrenme sürecinin çıktısı, akademik yayın değil.
-- Streamlit paneli hareketsizlikte uykuya geçiyor. Sürekli erişilebilirlik iddiası yok — uyumayan yüzey yukarıdaki kanıt sayfası.
-
----
-
 <div align="center">
 
 ### 📬 Bir şey sormak istersen
